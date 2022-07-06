@@ -1,0 +1,86 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+.box {
+  margin: 50px auto;
+  max-width: 400px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.info {
+height: 50px;
+margin: 5px;
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+  border-radius: 4px;
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  margin: 15px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border-width: 0;
+  border-radius: 30%;
+  margin: 10px;
+}
+
+::placeholder {
+  color: gray;
+  opacity: 1;
+  font-size: 15px;
+}
+
+input {
+  border-radius: 4%;
+  border-color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
